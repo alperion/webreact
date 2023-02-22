@@ -1,0 +1,36 @@
+<div
+        className="flex col-12 sm:col-12 md:col-12 lg:col-12 xl:col-5 p-jc-center text-white justify-content-center"
+        style={{ height: "100vh", backgroundColor: "rgba(0,0,0,0.50)" }}
+      >
+        <div className="flex flex-column justify-content-center ">
+          <div className="p-fluid">
+            <div className="card-container flex flex-row  justify-content-center p-mb-3">
+              <img
+                src="https://portal.defterbeyan.gov.tr/static/img/logo3.png"
+                alt="logo"
+                style={{ width: "180px", height: "60px" }}
+              ></img>
+            </div>
+
+            <div className="p-field">
+              <label>Email</label>
+              <div className="p-input-icon-left">
+                <i className="pi pi-user" />
+                <InputText id="firstname1" type="text" />
+              </div>
+            </div>
+
+            <div className="p-field">
+              <label>Password</label>
+              <div className="p-input-icon-left">
+                <i className="pi pi-lock" />
+                <InputText id="firstname1" type="password" />
+              </div>
+            </div>
+
+            <div className="flex justify-content-center p-col mt-3">
+              <Button label="GİRİŞ" className="p-button-danger" />
+            </div>
+          </div>
+        </div>
+      </div>
